@@ -1,6 +1,12 @@
-/* Style for header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
-    background-color: #003366;
+    background-color: #2d3a4b;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -22,11 +28,10 @@ header nav ul li a {
     font-weight: bold;
 }
 
-h1, h2 {
-    font-family: Arial, sans-serif;
+header nav ul li a.active {
+    text-decoration: underline;
 }
 
-/* Section styles */
 section {
     padding: 40px 0;
 }
@@ -45,11 +50,17 @@ ul li {
     line-height: 1.6;
 }
 
-/* Footer styles */
 footer {
-    background-color: #003366;
+    background-color: #2d3a4b;
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 30px;
+}
+
+a {
+    color: #003366;
+}
+
+a:hover {
+    text-decoration: underline;
 }
